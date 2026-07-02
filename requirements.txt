@@ -1,0 +1,8 @@
+streamlit
+pandas
+geopandas
+plotly
+openpyxl
+shapely
+pyproj
+numpy
