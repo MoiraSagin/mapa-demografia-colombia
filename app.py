@@ -11,7 +11,13 @@ st.set_page_config(
 
 st.title("Mapa demográfico municipal de Colombia")
 st.markdown("Crecimiento vegetativo estimado a partir de nacimientos menos defunciones.")
-
+st.markdown("""
+<style>
+.js-plotly-plot {
+    touch-action: pan-x pan-y;
+}
+</style>
+""", unsafe_allow_html=True)
 # =========================
 # Cargar datos
 # =========================
