@@ -232,7 +232,6 @@ fig = px.choropleth(
     custom_data=["MPIO_CNMBR", "DPTO_CNMBR", variable],
     color_continuous_scale=escala,
     range_color=rango_color,
-    height=1300
 )
 
 fig.update_geos(
